@@ -1,4 +1,4 @@
-FROM docker.oa.com:8080/public/maven:latest
+FFROM docker.oa.com:8080/public/maven:3.3
 ADD . $GOPATH/src
 ADD ./MavenTest  $GOPATH/src/MavenTest
 ADD run.sh /run.sh
