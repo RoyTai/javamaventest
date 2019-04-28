@@ -10,4 +10,4 @@ mvn install
 
 cd $GOPATH/src/MavenTest/target/
 
-mvn java -jar MavenTest-0.0.1-SNAPSHOT.jar
+java -jar MavenTest-0.0.1-SNAPSHOT.jar
